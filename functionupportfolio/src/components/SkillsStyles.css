@@ -1,0 +1,50 @@
+.skills{
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #000;
+
+}
+
+.skill-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+.skill-heading{
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.skill{
+    border: 1px solid #f6f5f5;
+    text-align: center;
+    padding: 1rem;
+    width: 140px;
+}
+
+.image{
+    
+   
+}
+
+.skill:hover{
+    background-color: rgb(42, 42, 42);
+}
+
+
+
+@media screen and (max-width: 740px) {
+
+    .skill-container{
+        max-width: 90%;
+        margin: auto;
+        
+        grid-template-columns:1fr;
+        
+    }
+    
+}
